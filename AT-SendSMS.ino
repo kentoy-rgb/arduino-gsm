@@ -36,7 +36,7 @@ void sendSMS() {
   SIM900.print("AT+CMGF=1\r"); 
   delay(100);
 
-  SIM900.println("AT + CMGS = \"+919895460246\""); // Target Mobile number here
+  SIM900.println("AT + CMGS = \"+639951234262\""); // Target Mobile number here
   delay(100);
   // Other international telephone codes can be added in place of '+91' at the start of the number
   
